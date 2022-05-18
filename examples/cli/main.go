@@ -6,8 +6,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	_ "github.com/s7techlab/hlf-sdk-go/crypto/ecdsa"
+	"github.com/vitiko/hlf-sdk-go/api"
+	_ "github.com/vitiko/hlf-sdk-go/crypto/ecdsa"
 )
 
 var ctx = context.Background()

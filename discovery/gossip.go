@@ -8,9 +8,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/api/config"
-	grpcclient "github.com/s7techlab/hlf-sdk-go/client/grpc"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api/config"
+	grpcclient "github.com/vitiko/hlf-sdk-go/client/grpc"
 )
 
 // implementation of api.DiscoveryProvider interface

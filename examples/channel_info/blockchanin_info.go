@@ -8,11 +8,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"github.com/s7techlab/hlf-sdk-go/client"
-	"github.com/s7techlab/hlf-sdk-go/client/chaincode/system"
-	_ "github.com/s7techlab/hlf-sdk-go/crypto/ecdsa"
-	"github.com/s7techlab/hlf-sdk-go/identity"
-	"github.com/s7techlab/hlf-sdk-go/proto"
+	"github.com/vitiko/hlf-sdk-go/client"
+	"github.com/vitiko/hlf-sdk-go/client/chaincode/system"
+	_ "github.com/vitiko/hlf-sdk-go/crypto/ecdsa"
+	"github.com/vitiko/hlf-sdk-go/identity"
+	"github.com/vitiko/hlf-sdk-go/proto"
 )
 
 func main() {
