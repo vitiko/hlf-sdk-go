@@ -8,7 +8,7 @@ import (
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/hyperledger/fabric/msp"
 
-	"github.com/s7techlab/hlf-sdk-go/proto"
+	"github.com/vitiko/hlf-sdk-go/proto"
 )
 
 var (

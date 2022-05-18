@@ -7,7 +7,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api"
 )
 
 func InvokeProto(ctx context.Context, invoker api.Invoker, channel, chaincode string, args []interface{}, target proto.Message) (proto.Message, error) {

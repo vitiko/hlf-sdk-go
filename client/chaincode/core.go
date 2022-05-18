@@ -6,7 +6,7 @@ import (
 
 	"github.com/hyperledger/fabric/msp"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api"
 )
 
 type Core struct {

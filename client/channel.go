@@ -11,12 +11,12 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/api/config"
-	"github.com/s7techlab/hlf-sdk-go/client/chaincode"
-	"github.com/s7techlab/hlf-sdk-go/client/chaincode/system"
-	"github.com/s7techlab/hlf-sdk-go/client/tx"
-	"github.com/s7techlab/hlf-sdk-go/proto"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api/config"
+	"github.com/vitiko/hlf-sdk-go/client/chaincode"
+	"github.com/vitiko/hlf-sdk-go/client/chaincode/system"
+	"github.com/vitiko/hlf-sdk-go/client/tx"
+	"github.com/vitiko/hlf-sdk-go/proto"
 )
 
 type Channel struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/hyperledger/fabric/msp"
 
-	"github.com/s7techlab/hlf-sdk-go/crypto"
+	"github.com/vitiko/hlf-sdk-go/crypto"
 )
 
 type Params struct {

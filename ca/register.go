@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/s7techlab/hlf-sdk-go/api/ca"
+	"github.com/vitiko/hlf-sdk-go/api/ca"
 )
 
 const regEndpoint = `/api/v1/register`

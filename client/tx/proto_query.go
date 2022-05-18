@@ -8,7 +8,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/peer"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api"
 )
 
 type ProtoQuerier struct {

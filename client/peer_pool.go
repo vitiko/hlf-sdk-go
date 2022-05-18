@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api"
 )
 
 var ErrEndorsingMSPsRequired = errors.New(`endorsing MSPs required`)

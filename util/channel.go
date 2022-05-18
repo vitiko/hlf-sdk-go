@@ -11,9 +11,9 @@ import (
 	"github.com/hyperledger/fabric/msp"
 	"github.com/pkg/errors"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/client/tx"
-	proto2 "github.com/s7techlab/hlf-sdk-go/proto"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/client/tx"
+	proto2 "github.com/vitiko/hlf-sdk-go/proto"
 )
 
 var (
