@@ -1,6 +1,6 @@
-## S7 Hyperledger Fabric SDK
+## Hyperledger Fabric SDK
 
-[![Coverage Status](https://coveralls.io/repos/github/s7techlab/hlf-sdk-go/badge.svg)](https://coveralls.io/github/s7techlab/hlf-sdk-go)
+[![Coverage Status](https://coveralls.io/repos/github/vitiko/hlf-sdk-go/badge.svg)](https://coveralls.io/github/vitiko/hlf-sdk-go)
 
 Code example with gossip service discovery available at: `examples/cc_call`
 #### Project structure:
