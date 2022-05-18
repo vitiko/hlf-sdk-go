@@ -14,12 +14,12 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/api/config"
-	"github.com/s7techlab/hlf-sdk-go/client/chaincode/system"
-	"github.com/s7techlab/hlf-sdk-go/client/deliver"
-	grpcclient "github.com/s7techlab/hlf-sdk-go/client/grpc"
-	"github.com/s7techlab/hlf-sdk-go/client/tx"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api/config"
+	"github.com/vitiko/hlf-sdk-go/client/chaincode/system"
+	"github.com/vitiko/hlf-sdk-go/client/deliver"
+	grpcclient "github.com/vitiko/hlf-sdk-go/client/grpc"
+	"github.com/vitiko/hlf-sdk-go/client/tx"
 )
 
 const (

@@ -10,12 +10,12 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/api/config"
-	"github.com/s7techlab/hlf-sdk-go/client/grpc"
-	"github.com/s7techlab/hlf-sdk-go/crypto"
-	"github.com/s7techlab/hlf-sdk-go/crypto/ecdsa"
-	"github.com/s7techlab/hlf-sdk-go/discovery"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/api/config"
+	"github.com/vitiko/hlf-sdk-go/client/grpc"
+	"github.com/vitiko/hlf-sdk-go/crypto"
+	"github.com/vitiko/hlf-sdk-go/crypto/ecdsa"
+	"github.com/vitiko/hlf-sdk-go/discovery"
 )
 
 // implementation of api.Core interface

@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/s7techlab/hlf-sdk-go/api"
-	"github.com/s7techlab/hlf-sdk-go/crypto"
-	"github.com/s7techlab/hlf-sdk-go/crypto/ecdsa"
+	"github.com/vitiko/hlf-sdk-go/api"
+	"github.com/vitiko/hlf-sdk-go/crypto"
+	"github.com/vitiko/hlf-sdk-go/crypto/ecdsa"
 )
 
 func DefaultCryptoSuite() api.CryptoSuite {

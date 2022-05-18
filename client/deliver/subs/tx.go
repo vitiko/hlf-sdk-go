@@ -6,7 +6,7 @@ import (
 	"github.com/hyperledger/fabric/protoutil"
 	"github.com/pkg/errors"
 
-	"github.com/s7techlab/hlf-sdk-go/util/txflags"
+	"github.com/vitiko/hlf-sdk-go/util/txflags"
 )
 
 func NewTxSubscription(txID string) *TxSubscription {
