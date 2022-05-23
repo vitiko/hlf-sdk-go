@@ -35,7 +35,7 @@ func (m MSP) Signer() (api.Identity, error) {
 	return signer, nil
 }
 
-func (m MSP) MSP() (identity.MSP, error) {
+func (m MSP) MSP(opts ...identity.MSPOpt) (identity.MSP, error) {
 	if m.ID == `` {
 		return nil, ErrMSPIDEmpty
 	}
@@ -44,5 +44,5 @@ func (m MSP) MSP() (identity.MSP, error) {
 		return nil, ErrMSPPathEmpty
 	}
 
-	return identity.MSPFromPath(m.ID, m.Path)
+	return identity.MSPFromPath(m.ID, m.Path, opts...)
 }
