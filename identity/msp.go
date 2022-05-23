@@ -103,6 +103,15 @@ func WithAdminMSPPath(adminMSPPath string) MSPOpt {
 	}
 }
 
+func MustMSPFromPath(mspID, mspPath string, opts ...MSPOpt) *MSPConfig {
+	mspConfig, err := MSPFromPath(mspID, mspPath, opts...)
+	if err != nil {
+		panic(err)
+	}
+
+	return mspConfig
+}
+
 // MSPFromPath loads msp config from filesystem
 func MSPFromPath(mspID, mspPath string, opts ...MSPOpt) (*MSPConfig, error) {
 	var err error
