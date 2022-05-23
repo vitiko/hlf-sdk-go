@@ -51,6 +51,7 @@ type (
 
 		userPaths []string
 
+		skipConfig        bool
 		validateCertChain bool
 		logger            *zap.Logger
 	}
@@ -97,6 +98,11 @@ func MSPFromConfig(fabricMspConfig *mspproto.FabricMSPConfig) (*MSPConfig, error
 	return mspConfig, nil
 }
 
+func WithSkipConfig() MSPOpt {
+	return func(mspOpts *MSPOpts) {
+		mspOpts.skipConfig = true
+	}
+}
 func WithAdminMSPPath(adminMSPPath string) MSPOpt {
 	return func(mspOpts *MSPOpts) {
 		mspOpts.adminMSPPath = adminMSPPath
@@ -176,8 +182,10 @@ func MSPFromPath(mspID, mspPath string, opts ...MSPOpt) (*MSPConfig, error) {
 		}
 	}
 
-	if mspConfig.mspConfig, err = FabricMSPConfigFromPath(mspID, mspOpts.mspPath); err != nil {
-		return nil, err
+	if !mspOpts.skipConfig {
+		if mspConfig.mspConfig, err = FabricMSPConfigFromPath(mspID, mspOpts.mspPath); err != nil {
+			return nil, err
+		}
 	}
 
 	if mspOpts.validateCertChain {
