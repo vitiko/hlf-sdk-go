@@ -21,8 +21,17 @@ type (
 	}
 )
 
+func (m MSP) MustSigner() api.Identity {
+	signer, err := m.Signer()
+	if err != nil {
+		panic(err)
+	}
+
+	return signer
+}
+
 func (m MSP) Signer() (api.Identity, error) {
-	mspConfig, err := m.MSP()
+	mspConfig, err := m.MSP(identity.WithSkipConfig())
 	if err != nil {
 		return nil, err
 	}
